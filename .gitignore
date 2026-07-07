@@ -1,0 +1,22 @@
+# ===== 敏感檔案：絕對不能上傳 =====
+# secrets.toml（Google 服務帳戶金鑰）
+.streamlit/
+# 服務帳戶金鑰備份
+金鑰*.json
+*service*account*.json
+# 2FA 備用碼
+雙重驗證*.txt
+Backup-codes*.txt
+
+# ===== 環境與暫存 =====
+venv/
+__pycache__/
+*.pyc
+
+# ===== 本機雜項（不需要部署） =====
+*.msix
+*.log
+legacy_rows_dump*.json
+Untitled-1.py
+.vscode/
+.claude/
