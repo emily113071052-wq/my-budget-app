@@ -1,6 +1,6 @@
 # ===== 敏感檔案：絕對不能上傳 =====
 # secrets.toml（Google 服務帳戶金鑰）
-.streamlit/
+.streamlit/secrets.toml
 # 服務帳戶金鑰備份
 金鑰*.json
 *service*account*.json
